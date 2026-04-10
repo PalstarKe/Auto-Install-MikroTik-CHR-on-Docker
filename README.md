@@ -20,7 +20,7 @@ sudo docker run --name ros7 --restart unless-stopped -p 8291:8291 -p 8728:8728 -
 ```
 - Full Example with Port Mapping
 ```
-docker run --name ros6 --restart unless-stopped \
+docker run --name ros7 --restart unless-stopped \
     -p 7000:8291 \
     -p 7001:8728 \
     -p 7002:8729 \
@@ -42,7 +42,7 @@ docker run --name ros6 --restart unless-stopped \
     -p 7018:4500/udp \
     -p 7019:1812/udp \
     -p 7020:1813/udp \
-    ros6
+    ros7
 ```
 
 # Expose Port
